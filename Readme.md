@@ -1,4 +1,4 @@
-# 📊 PerformX Tracker - Universal Performance Tracker
+# 📊 PerformX - Universal Performance Tracker
 ### *A structured framework to measure, reflect, and communicate performance*
 
 <img width="1234" height="656" alt="image" src="https://github.com/user-attachments/assets/2f3716c0-61d9-4ace-859e-67a1b2d561d3" />

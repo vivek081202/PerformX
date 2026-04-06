@@ -1,7 +1,9 @@
 # 📊 PerformX Tracker  
 ### *A structured framework to measure, reflect, and communicate performance*
 
----
+<img width="1234" height="656" alt="image" src="https://github.com/user-attachments/assets/2f3716c0-61d9-4ace-859e-67a1b2d561d3" />
+<img width="1218" height="646" alt="image" src="https://github.com/user-attachments/assets/1636289b-b68c-4cd1-af7b-31a153d45606" />
+<img width="1226" height="595" alt="image" src="https://github.com/user-attachments/assets/45c78e36-5ce4-4a86-b9b6-b9adaa67b059" />
 
 ## 🚀 Overview
 

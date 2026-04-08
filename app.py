@@ -1242,9 +1242,9 @@ elif selected_page == "Usage Instructions":
     for label, detail in assumptions:
         col_l, col_r = st.columns([1, 3])
         with col_l:
-            st.markdown(f"<div style='font-weight:600;color:#1F3864;font-size:0.88rem;padding:0.8rem 0;border-bottom:1px solid #E2E8F0;'>{label}</div>", unsafe_allow_html=True)
+            st.markdown(f"<div style='font-weight:600;color:#F1F5F9;font-size:0.88rem;padding:0.8rem 0;border-bottom:1px solid #1E293B;'>{label}</div>", unsafe_allow_html=True)
         with col_r:
-            st.markdown(f"<div style='font-size:0.85rem;color:#374151;padding:0.8rem 0;border-bottom:1px solid #E2E8F0;'>{detail}</div>", unsafe_allow_html=True)
+            st.markdown(f"<div style='font-size:0.85rem;color:#CBD5E1;padding:0.8rem 0;border-bottom:1px solid #1E293B;'>{detail}</div>", unsafe_allow_html=True)
 
     st.markdown('<div class="section-header-orange">⚠️ Known Limitations (from Phase 3 Bias Review)</div>', unsafe_allow_html=True)
     limitations = [
@@ -1256,12 +1256,11 @@ elif selected_page == "Usage Instructions":
     ]
     for risk, detail in limitations:
         st.markdown(f"""
-        <div style='display:flex;gap:0.8rem;align-items:flex-start;padding:0.75rem 0.9rem;
-                    border-bottom:1px solid #E2E8F0;background:#FFFBEB;border-radius:6px;margin-bottom:6px;'>
+        <div style='display:flex;gap:0.8rem;align-items:flex-start;padding:0.7rem 0;border-bottom:1px solid #1E293B;'>
             <span style='font-size:0.9rem;flex-shrink:0;'>⚠️</span>
             <div>
-                <div style='font-weight:600;color:#92400E;font-size:0.85rem;'>{risk}</div>
-                <div style='font-size:0.83rem;color:#374151;margin-top:0.2rem;'>{detail}</div>
+                <div style='font-weight:600;color:#F97316;font-size:0.85rem;'>{risk}</div>
+                <div style='font-size:0.83rem;color:#CBD5E1;margin-top:0.2rem;'>{detail}</div>
             </div>
         </div>
         """, unsafe_allow_html=True)
